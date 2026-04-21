@@ -1,5 +1,5 @@
 import pytest
-from calculadora import sumar, dividir
+from calculadora.operaciones import sumar, dividir
 
 def test_sumar_positivo():
     assert sumar(2, 3) == 5
